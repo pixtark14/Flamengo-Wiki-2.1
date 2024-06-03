@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/calendario.css">
+    <link rel="shortcut icon" href="assets/imgs/crflogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>FlaWiki</title>
+</head>
+
+<body>
+    <main id="main_page">
+
+        <nav id="navigation_bar">
+            <span id="section_one">
+                <a href="index_en.html"><img src="assets/imgs/crflogo.png" alt="CRF Logo" width="35px"></a>
+            </span>
+
+            <span id="section_two">
+                <a href="sobre_en.html" class="pages_link">About</a>
+                <a href="atual_en.html" class="pages_link">Present</a>
+                <a href="calendario_en.html" class="pages_link">Calendar</a>
+                <a href="noticias_en.html" class="pages_link">News</a>
+                <a href="quiz_en.html" class="pages_link">Quiz</a>
+            </span>
+        </nav>
+
+        <div id="content">
+
+            <h1 id="title">Calendar</h1><br>
+
+            <h2 class="bt-title">Championships</h2><br>
+
+            <div class="tab-buttons">
+                <button class="tab-btn active" content-id="brasileirao-betano">
+                    Brasileirão Betano
+                </button>
+
+                <button class="tab-btn" content-id="copa-libertadores">
+                    Copa Libertadores
+                </button>
+
+                <button class="tab-btn" content-id="copa-do-brasil">
+                    Copa do Brasil
+                </button>
+            </div>
+
+            <div class="tab-contents">
+                <div class="content show" id="brasileirao-betano">
+                    <iframe id="sofa-standings-embed-83-58766" src="https://widgets.sofascore.com/en-US/embed/tournament/83/season/58766/standings/Brasileiro%20Serie%20A?widgetTitle=Brasileiro%20Serie%20A&showCompetitionLogo=true" style=height:952.5px!important;max-width:768px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+                </div>
+
+                <div class="content" id="copa-libertadores">
+                    <iframe id="sofa-standings-embed-2932-57296" src="https://widgets.sofascore.com/en-US/embed/tournament/2932/season/57296/standings/Group%20E?widgetTitle=Group%20E&showCompetitionLogo=true" style=height:440.5px!important;max-width:768px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+                </div>
+
+                <div class="content" id="copa-do-brasil">
+                    <img src="assets/imgs/copadobrasil0306.png" alt="Copa do Brasil 0306" class="image_border-radius">
+                </div>
+            </div><br><br>
+            
+            <h2 class="bt-title">Matches</h2><br>
+
+            <div class="tab-buttons">
+                <button class="tab-btn active" content-id="proximos-jogos" style="width: 90px;">
+                    Next matches
+                </button>
+
+                <button class="tab-btn" content-id="jogos-anteriores">
+                    Previous matches
+                </button>
+            </div>
+
+            <div class="tab-contents">
+                <div class="content show" id="proximos-jogos">
+                    <img src="assets/imgs/proxjogos0306.png" alt="proximos jogos" class="image_border-radius">
+                </div>
+
+                <div class="content" id="jogos-anteriores">
+                    <img src="assets/imgs/jogosanteriores0306_en.png" alt="jogos anteriores en" class="image_border-radius">
+                </div>
+            </div><br>
+            
+        </div>
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1 id="footer_logo"><img src="assets/imgs/crflogo.png" alt="CRF Logo" width="38px"></h1>
+                    <p>From fan to fan.</p>
+
+                    <div id="footer_social_media">
+                        <a href="#" id="instagram" class="footer-link">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                
+                        <a href="#" id="xwitter" class="footer-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" id="youtube" class="footer-link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Support</h3>
+                    </li>
+                    <li>
+                        <a href="contactus_en.html" class="footer-link">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="faq_en.html" class="footer-link">FAQ</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Translate</h3>
+                    </li>
+                    <li>
+                        <strong id="portuguese_version" class="footer-link">English</strong>
+                    </li>
+                    <li>
+                        <a href="calendario.html" class="footer-link">Portuguese</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2024 Flawiki - All rights reserved.
+            </div>
+        </footer>
+    </main>
+
+    <script src="assets/js/calendar.js"></script>
+</body>
+</html>

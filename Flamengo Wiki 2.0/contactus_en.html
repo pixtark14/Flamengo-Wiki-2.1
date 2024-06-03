@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/contactus.css">
+    <link rel="shortcut icon" href="assets/imgs/crflogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>FlaWiki</title>
+</head>
+
+<body>
+    <main id="main_page">
+
+        <nav id="navigation_bar">
+            <span id="section_one">
+                <a href="index_en.html"><img src="assets/imgs/crflogo.png" alt="CRF Logo" width="35px"></a>
+            </span>
+
+            <span id="section_two">
+                <a href="sobre_en.html" class="pages_link">About</a>
+                <a href="atual_en.html" class="pages_link">Present</a>
+                <a href="calendario_en.html" class="pages_link">Calendar</a>
+                <a href="noticias_en.html" class="pages_link">News</a>
+                <a href="quiz_en.html" class="pages_link">Quiz</a>
+            </span>
+        </nav>
+
+        <div id="content">
+
+            <h1 id="title">Contact us</h1><br>
+
+            <div id="brief_words">
+                <p class="brief-title">
+                    You can write to:
+                </p><br>
+
+                <p class="brief-content">
+                    business.kayke@gmail.com
+                </p>
+            </div><br><br>
+
+            <p id="ou">Ou</p><br><br>
+
+            <p class="brief-content2">Fill in the information below so that we can contact you.</p><br><br>
+
+            <div id="form_settings">
+                <form action="" id="contact_form" method="post" autocomplete="on">
+
+                    <div id="categoria_select">
+                        <label for="categoria">Select subject</label>
+                        <select name="categoria" id="categoria" required class="borda">
+                            <option value="none"></option>
+                            <option value="report">Report</option>
+                            <option value="data-correction">Data correction</option>
+                            <option value="bugs">Bugs</option>
+                            <option value="suggestion">Suggestion</option>
+                        </select>
+                    </div><br><br>
+
+                    <div id="nome">
+                        <label for="name">Full name</label>
+                        <input type="name" name="name" required class="borda">
+                    </div><br><br>
+
+                    <div id="e-mail">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" required class="borda">
+                    </div><br><br>
+
+                    <div id="texto">
+                        <label for="text">Explain the problem</label>
+                        <textarea name="text" id="blank_space" cols="30" rows="15" class="borda" required style="resize: none;"></textarea>
+                    </div><br><br>
+
+                    <div id="arquivo">
+                        <label for="file">For a better understanding of the problem, send us an image.</label>
+                        <input type="file" name="file">
+                    </div><br><br>
+                    
+                    <div id="enviar">
+                        <input type="submit" name="submit" id="enviar_btn" value="Send">
+                    </div>
+
+                </form>
+            </div><br><br>
+                
+        </div>
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1 id="footer_logo"><img src="assets/imgs/crflogo.png" alt="CRF Logo" width="38px"></h1>
+                    <p>From fan to fan.</p>
+
+                    <div id="footer_social_media">
+                        <a href="#" id="instagram" class="footer-link">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                
+                        <a href="#" id="xwitter" class="footer-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" id="youtube" class="footer-link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Support</h3>
+                    </li>
+                    <li>
+                        <a href="contactus_en.html" class="footer-link">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="faq_en.html" class="footer-link">FAQ</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Translate</h3>
+                    </li>
+                    <li>
+                        <strong id="portuguese_version" class="footer-link">English</strong>
+                    </li>
+                    <li>
+                        <a href="contactus.html" class="footer-link">Portuguese</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2024 Flawiki - All rights reserved.
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
